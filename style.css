@@ -69,35 +69,52 @@ nav a {
     color: #E85D7A;
 
     display: flex;
+
     justify-content: center;
+
     align-items: center;
 
     text-align: center;
 
-    padding: 100px 30px 40px;
+    padding: 75px 30px 0;
 }
 
 .scroll-one-content {
-    width: 100%;
-    max-width: 1000px;
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
 }
 
-.scroll-one-content p {
+.text-one {
     font-size: 20px;
 
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
-.scroll-one-content h1 {
-    font-size: 70px;
+.text-two {
+    font-size: 50px;
 
-    line-height: 1.1;
+    font-weight: 700;
 
-    margin-bottom: 45px;
+    margin-bottom: 15px;
+}
+
+.text-three {
+    font-size: 20px;
+
+    margin-bottom: 40px;
 }
 
 .view-more {
-    display: inline-block;
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
 
     color: #E85D7A;
 
@@ -113,7 +130,6 @@ nav a {
 
     font-weight: 700;
 }
-
 
 /* =========================
    SCROLL 2
